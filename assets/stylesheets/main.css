@@ -2839,7 +2839,7 @@ p.rqst-desc {
   color: #ffffff;
   float: left;
   margin-bottom: 30px;
-  padding: 16px 45px 13px;
+  padding: 9px 45px 9px;
 }
 
 .req-button {
@@ -3106,13 +3106,13 @@ button.rd2.ylw-bg {
   float: left;
   width: 100%;
   color: #8f8f8f;
-  font-size: 10px;
+  font-size: 11px;
   padding: 12px 20px;
   margin-bottom: 10px;
 }
 .blu-lyr .scrb-frm input, 
 .blu-lyr .scrb-frm textarea {background-color: rgba(0,0,0,.35);}
-.scrb-frm textarea {height: 110px;}
+.scrb-frm textarea {height: 69px;}
 .scrb-frm button {
   display: inline-block;
   margin-top: 15px;
@@ -3290,16 +3290,16 @@ footer .blu-lyr {
   max-width: 75%;
 }
 .err-pg-inr > h1 {
-  color: #e91d62;
+  color: #ed9ec5;
   font-weight: 800;
   letter-spacing: 0;
   margin: 0 0 15px;
-  font-size: 260.05px;
+  font-size: 80.05px;
 }
 .err-pg-inr > h4 {
-  font-size: 40px;
+  font-size: 29px;
   color: #242424;
-  font-weight: 900;
+  font-weight: 600;
   letter-spacing: 0;
   margin: 0;
   display: inline-block;
@@ -3338,7 +3338,7 @@ footer .blu-lyr {
   font-weight: 700;
   letter-spacing: 0;
   font-family: montserrat;
-  padding: 21px 50px 19px;
+  padding: 15px 50px 15px;
   margin-top: 35px;
 }
 .err-pg-inr > a:hover,
@@ -8750,10 +8750,9 @@ header nav ul ul li > a:focus,
 .rspn-srch > input {
   background-color: transparent;
   border: 0 none;
-  color: #7e7e7e;
+  color: #ffffff;
   font-family: roboto;
-  font-size: 10px;
-  font-style: italic;
+  font-size: 12px;
   height: 100%;
   padding: 0 7%;
   width: 100%;

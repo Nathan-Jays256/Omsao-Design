@@ -21,7 +21,7 @@ header.styl9 .hdr-cnt-inf {width: 40%;}
 .prtflo-inf6-inr > p {font-size: 15px;}
 .prtflo-inf6-inr > a {margin-top: 35px;}
 .pg-tp {padding: 150px 0 0;}
-.err-pg-inr > h1 {font-size: 230px;}
+.err-pg-inr > h1 {font-size: 100px;}
 .abt-desc {padding: 50px;}
 .abt-desc > h2 {font-size: 45px;}
 .abt-desc > h2 i {font-size: 40px;}
@@ -153,6 +153,10 @@ nav.fxd-mnu {width: 30%;display: block;top: 56%;}
 .prmo-vdo {margin: 70px 0;}
 .sgstn-frm-wrp > form {margin-bottom: 50px;}
 footer div.row > div:last-child .wdgt {margin-bottom: 0 !important;}
+
+.wdgt.wdgt_sbscrb {
+    display: none;
+}
 footer div.wdgt {margin-bottom: 50px !important;}
 .title1 > h3 {font-size: 33px;}
 .prc-bx {padding: 50px 30px;}
@@ -303,7 +307,7 @@ nav.fxd-mnu {display: none;width: 26%;}
 .tl2,
 .tl1 {font-size: 35px;margin-bottom: 40px;}
 .err-pg-inr {max-width: 90%;}
-.err-pg-inr > h1 {font-size: 180px;}
+.err-pg-inr > h1 {font-size: 100px;}
 .err-pg-inr > h4 {font-size: 34px;}
 .srch-frm > input {font-size: 14px;}
 .err-pg-inr > a {font-size: 13px;}
