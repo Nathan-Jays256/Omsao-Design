@@ -276,6 +276,10 @@ section{
   position: relative;
   width: 100%;
 }
+
+.gp-50 {
+    padding: 10px 0px !important;
+}
 .sec-bx {
   margin: 0 auto;
   max-width: 1300px;
@@ -950,6 +954,7 @@ header {
 header.stck {
   position: relative;
   left: 0;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%);
 }
 header.styl1 .lgo {
   width: 100%;
@@ -2846,9 +2851,6 @@ p.rqst-desc {
     background-color: #976389 !important;
 }
 
-button.rd2.ylw-bg {
-}
-
 .req-button {
     background-color: burlywood;
 }
@@ -3637,12 +3639,12 @@ header.styl1 nav > ul > li div.mgamnu {top: 111%;}
   font-size: 24px;
   letter-spacing: 1px;
   font-weight: 700;
-  color: #151515;
+  color: #21596e;
   margin: 0 0 10px;
 }
 .join-note-inr > p {
   font-size: 15px;
-  color: #6f6f70;
+  color: #1d4652;
   line-height: 30px;
   margin-bottom: 0;
   letter-spacing: 0;
@@ -3654,8 +3656,8 @@ header.styl1 nav > ul > li div.mgamnu {top: 111%;}
 .col-md-8 .join-not-btn {width: 40%;}
 .join-not-btn > a {
   color: #fff;
-  padding: 22px 70px;
-  background-color: #6f6f6f;
+  padding: 13px 40px;
+  background-color: #1d4652;
   display: inline-block;
   font-weight: 600;
   font-size: 14px;
@@ -6230,8 +6232,8 @@ ul.msnry > li {
 .prtflo-bx4 > a {
   color: #fff;
   position: absolute;
-  right: 25px;
-  top: 25px;
+  right: 114px;
+  top: 117px;
   font-family: montserrat;
   font-size: 25px;
   line-height: 54px;
@@ -7344,7 +7346,7 @@ button.login:hover {
 .prtflo-thmb6 > a:hover:before {opacity: .2;}
 .prtflo-thmb6 img {width: 100%;}
 .prtflo-inf6 {
-  background-color: #3d456d;
+  background-color: #275e6e;
   float: left;
   width: 100%;
   padding: 65px;
@@ -7377,8 +7379,25 @@ button.login:hover {
   font-size: 14px;
   font-family: montserrat;
   font-weight: 700;
-  padding: 15px 60px;
-  background-color: #252525;
+  padding: 15px 43px;
+  background-color: #1d4652;
+}
+.prtflo-inf6-inr-btn {
+  display: inline-block;
+  color: #fff !important;
+  margin-top: 39px;
+  font-size: 14px;
+  font-family: montserrat;
+  font-weight: 700;
+  top: 160px;
+  position: absolute;
+  padding: 9px 32px;
+  background-color: #3ca1c7;
+}
+
+a.rd30.prtflo-inf6-inr-btn:hover {
+    background-color: #fb9dc5;
+    color: white;
 }
 /*===== Contact Page =====*/
 
@@ -8883,4 +8902,35 @@ header nav ul ul li > a:focus,
 
 .navbar-fixed-top.cbp-af-header-shrink {
 	padding: 10px 0;
+}
+h1 span.headline {
+    font-weight: 700;
+    color: #fa90c5;
+    font-size: 42px;
+    max-width: 504px;
+    text-align: left;
+    text-transform: uppercase;
+    top: 103px;
+    position: absolute;
+}
+h1 span.headline2 {
+    font-weight: 500;
+    color: #fa90c5;
+    font-size: 25px;
+    max-width: 640px;
+    text-align: right;
+    text-transform: uppercase;
+    top: 145px;
+    position: absolute;
+}
+h1 span.headline::after {
+    height: 3px;
+    background-color: #58d1fc;
+    width: 100px;
+    content: '';
+    display: block;
+    position: relative;
+    left: 0;
+    top: 30px;
+    margin-bottom: 25px;
 }

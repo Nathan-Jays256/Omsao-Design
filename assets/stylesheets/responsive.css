@@ -19,7 +19,7 @@ header.styl9 .hdr-cnt-inf {width: 40%;}
 .prtf-bx2 > img {height: initial;}
 .prtflo-inf6-inr > h4 {font-size: 35px;margin-bottom: 22px;}
 .prtflo-inf6-inr > p {font-size: 15px;}
-.prtflo-inf6-inr > a {margin-top: 35px;}
+.prtflo-inf6-inr > a {margin-top: 24px;}
 .pg-tp {padding: 150px 0 0;}
 .err-pg-inr > h1 {font-size: 100px;}
 .abt-desc {padding: 50px;}
@@ -857,6 +857,10 @@ nav.fxd-mnu {width: 21%;}
     margin-bottom: 12px !important;
     margin-top: 36% !important;
 }
+.prtflo-bx4 > ar{
+    left:12px;
+    top:12px;
+}
 
 .slide-nav {
     display: none;
@@ -921,6 +925,10 @@ text-align: center !important;
             padding: 75px 0 0px;
             height: -webkit-fill-available;
             min-height: 100vh;
+        }
+        .prtflo-bx4 > a{
+            top:12px;
+            left:12px;
         }
             .lgn-frm-wrp .logo h1 a img {
                 width: 66%;
